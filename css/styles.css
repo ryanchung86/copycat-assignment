@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+img {
+  max-width: 50%;
+}
+
+header {
+  background-color: green;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.title {
+  float: left;
+  color: white;
+}
+
+.nav-bar {
+  overflow: hidden;
+}
+
+.nav-list {
+  float: right;
+}
+.nav-item {
+  display: inline-block;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.welcome {
+  background-color: blue;
+}
+
+.welcome h1 {
+  float: right;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.intro {
+  background-color: beige;
+}
+
+.products {
+  background-color: grey;
+}
+
+.cat {
+  width: 30%;
+  border: 3px solid black;
+}
+
+.outro {
+  background-color: navy;
+}
+
+.outro h2 {
+  padding-right: 150px;
+  display: inline;
+  color: pink;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.outro p {
+  color: white;
+}
+
+footer {
+  background-color: aqua;
+}
